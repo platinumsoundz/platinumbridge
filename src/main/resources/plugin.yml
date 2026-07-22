@@ -1,0 +1,37 @@
+name: Platinum
+version: "1.0.0"
+main: com.platinum.Platinum
+api-version: "1.20"
+description: "Core engine for the Platinum mod system."
+
+depend:
+  - AuraSkills
+  - PlaceholderAPI
+
+softdepend:
+  - Vault
+  - Skript
+  - CelestCombat-Pro
+  - LevelledMobs
+  - LuckPerms
+  - EliteMobs
+  - SmartSurvivalPlugin
+  - RPGTools
+  - EconomyShopGUI
+  - DeluxeMenus
+
+commands:
+  platinum:
+    description: Master command routing executor for Platinum.
+    permission: platinum.admin
+    usage: /platinum
+  menu:
+    description: Opens the server bedrock main menu.
+    usage: /menu
+  bridgereload:
+    description: Reload the Platinum bridge system.
+    permission: platinum.admin
+    usage: /bridgereload
+  open_sellgui:
+    description: Bridge command to safely open EconomyShopGUI.
+    usage: /open_sellgui

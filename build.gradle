@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.platinum'
+version = '1.0-SNAPSHOT'
+
+dependencies {
+    // Core Server API
+    compileOnly "io.papermc.paper:paper-api:1.20.1-R0.1-SNAPSHOT"
+
+    // Include all JARs in the 'libs' folder as compile-time dependencies
+    compileOnly fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(21)
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release.set(21)
+    // Enable detailed deprecation warnings
+    options.compilerArgs << "-Xlint:deprecation"
+}

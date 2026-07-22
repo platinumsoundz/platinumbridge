@@ -1,0 +1,73 @@
+menu_title: '§8§lPlayer Status Menu'
+# Removed contested aliases so DeluxeMenus leaves the /menu packet graph entirely to your Java plugin
+open_command: 
+  - statusmenu
+  - platinummenu
+size: 45
+register_command: false # FIXED: Prevents DeluxeMenus from claiming the command map globally
+
+# Automatically refreshes placeholders (like your live wallet balance and skills) every second
+update_interval: 1
+
+items:
+  # --- Centered Vertical Button Stack (EliteMobs Box Style) ---
+  
+  'stats_button':
+    material: BOOK
+    slot: 13
+    display_name: '§a§l[ Stats & Skills ]'
+    lore:
+      - '§7----------------------------'
+      - '§f View and upgrade your RPG skills.'
+      - '§7 Current Overall Progress:'
+      - ' §7• Power Level: §e%auraskills_power_level%'
+      - ' §7• Mana Pool: §b%auraskills_mana%/%auraskills_max_mana%'
+      - '§7----------------------------'
+      - '§e▶ Click to open Skills System'
+    left_click_commands:
+      - '[player] skills'
+    right_click_commands:
+      - '[player] skills'
+
+  'economy_button':
+    material: EMERALD
+    slot: 22
+    display_name: '§6§l[ Server Wallet & Shop ]'
+    lore:
+      - '§7----------------------------'
+      - '§f Access the marketplace and economy.'
+      - '§7 Financial Status:'
+      - ' §7• Total Balance: §a$%vault_eco_balance_fixed%'
+      - '§7----------------------------'
+      - '§e▶ Left-Click: Open Sell GUI'
+      - '§e▶ Right-Click: Access Main Shop'
+    left_click_commands:
+      - '[player] sell'
+    right_click_commands:
+      - '[player] shop'
+
+  'future_expansion_button':
+    material: PAPER
+    slot: 31
+    display_name: '§7§l[ Quests & Milestones ]'
+    lore:
+      - '§7----------------------------'
+      - '§d Systems operational. Ready to link'
+      - '§d additional content bridges here.'
+      - '§7----------------------------'
+      - '§c🔒 Under Development'
+    left_click_commands:
+      - '[message] §d[Platinum] Additional modules can be mapped here!'
+    right_click_commands:
+      - '[message] §d[Platinum] Additional modules can be mapped here!'
+
+  # --- Framed Dark Glass Borders to Emphasize the Vertical Box Layout ---
+  'filler_border':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0-8
+      - 9, 17
+      - 18, 26
+      - 27, 35
+      - 36-44
+    display_name: ' '

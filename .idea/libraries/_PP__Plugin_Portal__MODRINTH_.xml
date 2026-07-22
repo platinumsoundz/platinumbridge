@@ -1,0 +1,59 @@
+<component name="libraryTable">
+  <library name="[PP] Plugin Portal (MODRINTH)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/[PP] Plugin Portal (MODRINTH).jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/AuraMobs_A_mob_levels_add-on_for_AuraSkills-2.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/AuraSkills-2.3.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/AuraSkills-CatchUp-Addon-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/CelestCombat-Pro-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/Chunky-Bukkit-1.5.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/CMILib1.5.9.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/CoreProtect-CE-24.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/CreateYourOwnMenus-0.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/DecentHolograms_1.8_-_26.2_Displays_PAPI_Support_No_Dependencies-2.9.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/deluxechat-0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/DeluxeMenus-1.14.1-Release.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/Dynmap-3.8-spigot.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/EconomyShopGUI-7.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/Elden-0.2.2-Beta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/EliteMobs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/EssentialsX-2.22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/EssentialsXChat-2.22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/HereNavy-1.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/HorseGuard-1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/LagFixer-1.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/LevelledMobs-4.5.3.1 b155.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/LuckPerms-Bukkit-5.5.53.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/MiningBoost-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/multiverse-core-5.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/MyCommand.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/PlaceholderAPI-2.12.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/platinum bridge 1.0-1.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/platinum-1.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/ProtocolLib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/Random_Enchanted_Rewards_for_AuraSkills-0.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/RPGTools-1.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/SimpleScore-4.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/SkillTree-1.0.1-26.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/Skript-2.16.0-pre1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/skript-worldguard-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/SmartSurvivalPlugin-3.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/tebex-bukkit-2.4.3-d51129a.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/TitanEconomy-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/TreeChopper-1.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/Vault.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/veinminer-paper-2.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/ViaBackwards-5.10.1-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/ViaRewind-4.1.3-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/ViaVersion.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/ViaVersion-5.10.1-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/ViaVersion-5.11.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/worldedit-bukkit-7.4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/worldguard-bukkit-7.0.17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libs/[PP] Plugin Portal (MODRINTH).jar!/" />
+    </SOURCES>
+  </library>
+</component>

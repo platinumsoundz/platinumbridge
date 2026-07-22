@@ -1,0 +1,94 @@
+# Platinum Configuration
+scoreboard:
+  enabled: false
+  update-interval: 20
+  title: "&b&lPLATINUMRPG"
+  pages:
+    stats:
+      - "&b--- Player Stats ---"
+      - "&fRank: %platinumbridge_rank%"
+      - "&fPower: &b%platinumbridge_power%"
+      - "&fStatus: %platinumbridge_combat_status%"
+      - "&fBalance: &a$%vault_eco_balance_formatted%"
+    skills:
+      - "&b--- Skill Levels ---"
+      - "&fMining Boost: &e%platinumbridge_mining_boost%x"
+      - "&fMining: &e%auraskills_mining%"
+      - "&fFishing: &e%auraskills_fishing%"
+
+nametags:
+  enabled: false
+
+bossbar:
+  rotation-interval: 3000
+  compass:
+    enabled: false
+    display-window: 24
+    marker: "◆"
+    separator: "│"
+    sensitivity: 50
+  frames:
+    - "&a &bLoading"
+    - "&a &b------"
+    - "&a &fWelcome to PlatinumSurvival!"
+    - "&a &bWe Hope Your Ready!"
+    - "&a &fIt's Gonna Be A Mad Ting!"
+    - "&a &b------"
+    - "&a &bAuraSkills"
+    - "&a &fArchery Level: %auraskills_archery% &b| &e%auraskills_xp_progress_int_archery% %To LevelUp!"
+    - "&a &fFighting Level: %auraskills_fighting% &b| &e%auraskills_xp_progress_int_fighting% %To LevelUp!"
+    - "&a &fDefense Level: %auraskills_defense% &b| &e%auraskills_xp_progress_int_defense% %To LevelUp!"
+    - "&a &fFarming Level: %auraskills_farming% &b| &e%auraskills_xp_progress_int_farming% %To LevelUp!"
+    - "&a &fForaging Level: %auraskills_foraging% &b| &e%auraskills_xp_progress_int_foraging% %To LevelUp!"
+    - "&a &fMining Level: %auraskills_mining% &b| &e%auraskills_xp_progress_int_mining%%To LevelUp!"
+    - "&a &fFishing Level: %auraskills_fishing% &b| &e%auraskills_xp_progress_int_fishing%%To LevelUp!"
+    - "&a &fExcavation Level: %auraskills_excavation% &b| &e%auraskills_xp_progress_int_excavation%%To LevelUp!"
+    - "&a &fAgility Level: %auraskills_agility% &b| &e%auraskills_xp_progress_int_agility%%To LevelUp!"
+    - "&a &fAlchemy Level: %auraskills_alchemy% &b| &e%auraskills_xp_progress_int_alchemy%%To LevelUp!"
+    - "&a &fEnchanting Level: %auraskills_enchanting% &b| &e%auraskills_xp_progress_int_enchanting%%To LevelUp!"
+    - "&a &fMana Level: %auraskills_mana% &b| Max Mana: %auraskills_mana_max% "
+    - "&a &b------"
+    - "&a &bAuraStats"
+    - "&a &fCombined Skill Level: %auraskills_power% &b| &fStrength Level: &e%auraskills_strength%"
+    - "&a &fHealth Level: %auraskills_health% %auraskills_hp% &b| &fRegeneration Level: &e%auraskills_regeneration%"
+    - "&a &fLuck Level: %auraskills_luck% &b| &fWisdom Level: &e%auraskills_wisdom%"
+    - "&a &fToughness Level: %auraskills_toughness% &b| &fCrit. Chance Level: &e%auraskills_crit_chance%"
+    - "&a &fCrit. Damage Level: %auraskills_crit_damage% &b| &fSpeed Level: &e%auraskills_speed%"
+    - "&a &b------"
+    - "&a &bAuraInfo"
+    - "&a &fLeaderboard rank: %auraskills_rank% &b| &fActive Jobs: &e%auraskills_jobs_list%"
+    - "&a &b------"
+    - "&a &fMore Stats Coming soon!"
+    - "&a &b------"
+    - "&a &bplatinum.survival.bedrock.minekeep.gg"
+    - "&a &b------"
+
+# Platinum Configuration[cite: 8]
+# ... (existing sections like scoreboard, nametags, bossbar) ...
+
+# Existing mechanics...
+mechanics:
+  double-jump:
+    enabled: true
+    base-height: 0.6
+  air-dash:
+    enabled: true
+    multiplier: 1.2
+    downward-force: -0.2
+  floor-slide:
+    enabled: true
+    multiplier: 1.5
+    upward-force: 0.1
+
+  # New Mechanics
+  grapple:
+    enabled: true
+    multiplier: 1.5
+  combat-roll:
+    enabled: true
+    multiplier: 1.2
+  wall-run:
+    enabled: true
+  attack:
+    enabled: true
+    sword-multiplier: 1.5
